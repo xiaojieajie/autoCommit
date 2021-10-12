@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "git config --global user.email '953136447@qq.com' && git config --global user.name 'xiaojieajie' && node index.js"
   },
   "repository": {
     "type": "git",
