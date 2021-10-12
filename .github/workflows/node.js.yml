@@ -21,6 +21,8 @@ jobs:
    # 这里展示了如何执行多条命令
     - name: Run and Push
       run: |
+        git config --global user.email "953136447@qq.com"
+        git config --global user.name "xiaojieajie"
         npm start
         git add .
         git commit -m "commit"
