@@ -5,7 +5,7 @@ name: CI
 on:
   schedule:
   
-    - cron: '* * * * *'
+    - cron: '0 * * * *'
 
 # jobs 表示要执行的一项或者多项任务
 jobs:
